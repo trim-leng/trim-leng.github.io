@@ -1,0 +1,46 @@
+/* Smartphones  ----------- */
+@media only screen
+and (max-width : 480px){
+section,#title,header,#footer-content{
+	width:100vw;
+	margin:0px auto;
+}
+	.grid-article{
+		grid-template-columns: 1fr;
+	}
+	.article-col-2{
+		display: block;
+	}
+	.article-col-2 img{
+		width:80%;
+	}
+	.grid-article{
+		padding:10px 0px;
+	}
+
+	.thumbnail-box h1{
+		text-align:left;
+	}
+	.archive-list{
+		
+		margin:10px 0px;
+		padding:10px 0px;
+		border:2px solid #bfbd09;;
+	}
+	.archive-list img{
+		width:90%;
+		padding:0px;
+		margin:0px auto;
+	}
+	.archive-list h1{
+		padding:0px 10px;
+		margin:0px;
+		border:0px;
+	}
+	.archive-list li{
+		margin:0px;
+		padding:0px;
+		
+	}
+}
+

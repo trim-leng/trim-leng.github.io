@@ -1,0 +1,73 @@
+---
+layout: default
+title: སྒེར་རྫས་དང་རྒྱུ་ནོར་ཐད་ཀྱི་རྩོད་གཞི།
+---
+
+{% include header.html %}
+	<h1>{{page.title}}</h1>
+<article class="article-col-2">
+
+<div>
+	
+	<div class="archive-list">
+		<img src="/assets/images/loan-n-repayment.jpg">
+		<div>
+		<h1>བུ་ལོན་དང་གླ་ཕོགས།</h1>
+			{% include filter-page.html  type='loan-term-and-repayment' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/recognition.jpg">
+		<div>
+		<h1>སྐུར་འདེབས་དང་སྒྲོ་བཏགས་ཀྱིས་གང་ཟག་གི་མཚན་སྙན་གྲགས་ལ་གནོད་པ།</h1>
+			{% include filter-page.html type='reputation-infringement' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/property.jpg">
+		<div>
+		<h1>སྒེར་ལ་དབང་བའི་རྒྱུ་རྫས་དོ་དམ།</h1>
+			{% include filter-page.html type='property-management' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/rural.jpg">
+		<div>
+		<h1>ས་ཞིང་ཚོང་གཉེར་གྱི་རྩོད་གཞི། </h1>
+			{% include filter-page.html type='contracted-rural-land' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/personal-property.jpg">
+		<div>
+		<h1>ཉེན་སྲུང་།</h1>
+			{% include filter-page.html type='personal-and-property-insurance-contract' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/injury.jpg">
+		<div>
+		<h1>རླངས་འཁོར་བརྡབས་རྐྱེན་བྱུང་བའི་དཔལ་འབྱོར་གུན་ཚབ་སྐོར། </h1>
+			{% include filter-page.html type='loss-or-injury-due-to-accident' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/wills.jpg">
+		<div>
+		<h1>ཤུལ་འཛིན་དང་ཁ་འཆམ།</h1>
+			{% include filter-page.html type='inheritance-and-wills' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/insurance.jpg">
+		<div>
+		<h1>སྒེར་གྱི་རྒྱུ་ནོར་ལོངས་སྤྱོད་དང་ལུས་སྲོག་ལ་གནོད་པའི་གུན་ཚབ་གཞལ་སྟངས།</h1>
+			{% include filter-page.html type='private-party-compensation-for-property-damagfe-injury' %}
+		</div>
+	</div>
+
+
+</div>
+
+{% include widget.html %}
+{% include footer.html %}

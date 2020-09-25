@@ -1,0 +1,37 @@
+---
+layout: default
+title: བཟའ་ཚང་དང་འབྲེལ་བའི་རྩོད་གཞི། 
+---
+
+{% include header.html %}
+	<h1>{{page.title}}</h1>
+<article class="article-col-2">
+
+<div>
+	
+	<div class="archive-list">
+		<img src="/assets/images/violence.jpg">
+		<div>
+		<h1>བརྙས་བཅོས།</h1>
+			{% include filter-page.html  type='abuse' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/picture.jpg">
+		<div>
+		<h1>བཟའ་འཐོར་དང་བྱིས་པ་གཉོར་སྐྱོང་།</h1>
+			{% include filter-page.html type='devorce-child-custody' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/marriage-law.jpg">
+		<div>
+		<h1>གཉེན་སྒྲིག་ཁྲིམས།</h1>
+			{% include filter-page.html type='marriage-law' %}
+		</div>
+	</div>
+
+</div>
+
+{% include widget.html %}
+{% include footer.html %}

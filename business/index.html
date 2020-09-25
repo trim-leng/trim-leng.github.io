@@ -1,0 +1,58 @@
+---
+layout: default
+title: འཛད་སྤྱོད་དང་ཚོང་དོན་གྱི་རྩོད་གཞི།
+---
+
+{% include header.html %}
+	<h1>{{page.title}}</h1>
+<article class="article-col-2">
+
+<div>
+	
+	<div class="archive-list">
+		<img src="/assets/images/fraud.jpg">
+		<div>
+		<h1>དྲ་ཐོག་ནས་མགོ་གཡོགས་མགོ་སྐོར་ཐེབས་པ།</h1>
+			{% include filter-page.html  type='fraud' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/contract-dispute.jpg">
+		<div>
+		<h1>དྲ་ཐོག་ནས་མགོ་གཡོགས་མགོ་སྐོར་ཐེབས་པ།</h1>
+			{% include filter-page.html type='contract-dispute' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/consumer-rights.jpg">
+		<div>
+		<h1>འཛད་སྤྱོད་པའི་ཐོབ་ཐང་།</h1>
+			{% include filter-page.html type='consumer-rights' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/partnership.jpg">
+		<div>
+		<h1>མཉམ་ལས་ཀྱི་གན་རྒྱ། </h1>
+			{% include filter-page.html type='partnership-contract' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/contract-for-sale-purchase-installment.jpg">
+		<div>
+		<h1>དུས་བཅད་ལྟར་རིན་གོང་སྤྲོད་པའི་ཉོ་འཚོང་གི་འགན་རྒྱ་དང་གཏའ་བཞག་རླངས་འཁོར་སོགས། </h1>
+			{% include filter-page.html type='contract-for-sale-purchas-installment' %}
+		</div>
+	</div>
+	<div class="archive-list">
+		<img src="/assets/images/business-licencing.jpg">
+		<div>
+		<h1>ཚོང་ལས་གསར་འཛུགས་དང་ཆོག་མཆན་ལེན་སྟངས། </h1>
+			{% include filter-page.html type='business-planning-licensing' %}
+		</div>
+	</div>
+
+</div>
+
+{% include widget.html %}
+{% include footer.html %}
