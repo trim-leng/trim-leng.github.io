@@ -4,12 +4,12 @@ colors: #bfbd09
 
 @font-face {
   font-family: sarchen;
-  src: url(/assets/fonts/Qomolangma-UchenSarchen.ttf);
+  src: url({{site.baseurl}}/assets/fonts/Qomolangma-UchenSarchen.ttf);
 }
 
 @font-face {
   font-family: sarchung;
-  src: url(/assets/fonts/Qomolangma-UchenSarchung.ttf);
+  src: url({{site.baseurl}}/assets/fonts/Qomolangma-UchenSarchung.ttf);
 }
 
 
