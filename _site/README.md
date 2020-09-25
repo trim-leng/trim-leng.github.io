@@ -1,2 +1,0 @@
-# legalclininc
-legal clinic
