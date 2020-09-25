@@ -1,5 +1,5 @@
 {% for pages in site.pages %}
 				{% if pages.type == include.type %}
-			<li><a href="{{ pages.url }}">{{ pages.title }}</a></li>
+			<li><a href="{{site.baseurl}}/{{ pages.url }}">{{ pages.title }}</a></li>
 			  {% endif %}
 {% endfor %}
