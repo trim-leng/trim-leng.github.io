@@ -40,7 +40,9 @@ section,#title,header,#footer-content{
 	.archive-list li{
 		margin:0px;
 		padding:0px;
-		
+	}
+	video{
+		width:90%;
 	}
 }
 
