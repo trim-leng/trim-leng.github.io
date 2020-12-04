@@ -17,7 +17,11 @@ section,#title,header,#footer-content{
 	.grid-article{
 		padding:10px 0px;
 	}
-
+	.archive-list-2{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.archive-list-2 a{text-align: center;}
 	.thumbnail-box h1{
 		text-align:left;
 	}

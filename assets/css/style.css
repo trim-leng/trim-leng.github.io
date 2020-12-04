@@ -60,6 +60,10 @@ color:#bfbd09;
 	grid-column-gap: 20px;
 	grid-template-columns: 70% 30%;
 }
+.archive-list-2{
+	display: grid;
+	grid-template-columns: 10% 90%;
+}
 p,.section-header h2{color:#1d1d1d;}
 .intro1{padding:20px;}
 .intro2{
@@ -163,6 +167,7 @@ background:black;
 .widget li a{
 	font-size: 14px;
 }
+
 /** Footer ---------------------------- **/
 footer{
 	background:#1d1d1d;
