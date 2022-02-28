@@ -1,11 +1,11 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @font-face {
   font-family: mon2;
-  src: url(../assets/fonts/MonlamUniOuChan2.ttf);
+  src: url(MonlamUniOuChan2.ttf);
 }
 @font-face {
   font-family: qoti;
-  src: url(../assets/fonts/Qomolangma-Title.ttf);
+  src: url(Qomolangma-Title.ttf);
 }
 html{
 	font-family:qoti !important;
