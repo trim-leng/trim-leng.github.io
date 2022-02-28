@@ -1,0 +1,33 @@
+---
+layout: content
+title: ཁྲིམས་རིག་གི་ལོ་རྒྱུས།
+
+---
+
+<div class="hero lazyload" data-bg="{{site.baseurl}}/assets/img/posts/politician.jpg">
+      <div class="hero__wrap">
+        <h1 class="hero__title">ཁྲིམས་རིག་གི་ལོ་རྒྱུས།</h1>
+        <p class="hero__meta"></p>
+      </div>
+    </div>
+     
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+     {% for post in site.posts %}
+      
+      {% if post.categories contains "ཁྲིམས་བཟོའི་སྐོར།" %}
+           
+              {% include card.html %}
+              
+             {% endif %}
+            
+            {% endfor %}
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    {% include pagination.html %} 
+   

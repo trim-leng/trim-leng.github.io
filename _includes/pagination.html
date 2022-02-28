@@ -1,0 +1,29 @@
+<nav class="pagination">
+
+
+{% if paginator.total_pages > 1 %}
+<div class="vlog-pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html" class="pagination__item">དེ་སྔའི།</a> 
+  {% endif %}
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="page-numbers  current">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{site.baseurl}}/index.html" class="page-numbers  current">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}index.html" class="pagination__item">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html" class="pagination__item">འོག་མ།</a>
+  {% endif %}
+</div>
+{% endif %}
+
+
+
+
+</nav>
+

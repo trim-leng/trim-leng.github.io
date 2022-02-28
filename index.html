@@ -1,0 +1,12 @@
+---
+layout: default
+title: མདུན་ངོས།
+
+---
+
+ {% for post in paginator.posts %}
+  {% unless post.categories contains '中文' %}
+              {% include card.html %}
+ {% endunless %}
+{% endfor %}
+  

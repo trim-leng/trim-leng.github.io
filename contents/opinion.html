@@ -1,0 +1,29 @@
+---
+layout: content
+title: བསམ་ཚུལ།
+
+---
+
+<div class="hero lazyload" data-bg="{{site.baseurl}}/assets/img/posts/thoughts.png">
+      <div class="hero__wrap">
+        <h1 class="hero__title">བསམ་ཚུལ།</h1>
+        <p class="hero__meta">རྒྱལ་ཁབ་ཕྱི་ནང་གི་སྐད་ཡིག་ཐོབ་ཐང་སྐོར་གྱི་ཁྲིམས་དང་འཆིང་ཡིག་གི་སྐོར།</p>
+      </div>
+    </div>
+     
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+     {% for post in site.posts %}
+      {% if post.categories contains "བསམ་ཚུལ།" %}
+              {% include card.html %}
+             {% endif %}
+            {% endfor %}
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    {% include pagination.html %} 
+   

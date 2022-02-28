@@ -1,0 +1,42 @@
+#http://planetjekyll.github.io/snippets/nav-with-data
+
+- name: མདུན་ངོས།
+  url: "/index.html"
+
+- name: དྲ་ཚིགས་འདིའི་སྐོར།
+  subcategories:
+    - subname: "བདག་གི་སྐོར།"
+      subhref: "/2016-07-28-about.html"
+    - subname: "དྲ་ཚིགས་འདི་ཡི་དགོས་པ་རྒྱུ་མཚན།"
+      subhref: "/2016-08-05-aims-and-objectives.html"
+
+- name: དཀར་ཆག
+  subcategories:
+    - subname: "ཉེས་དོན་ཞུ་གཏུག་གི་སྐོར།"
+      subhref: "/contents/police.html"
+    - subname: "སྐད་ཡིག"
+      subhref: "/contents/language.html"
+    - subname: "དཔེ་དོན།"
+      subhref: "/contents/examplary.html"
+    - subname: "ཁྲིམས་རིག་གི་ལོ་རྒྱུས།"
+      subhref: "/contents/politics.html"
+    - subname: "ཁྲིམས་རིག་གི་ལོ་རྒྱུས།"
+      subhref: "/contents/politic-stories.html"
+    - subname: "ཁྲིམས་ཀྱི་གཞུང་བཤད།"
+      subhref: "/contents/pol.html"
+   
+- name: བརྡ་ཆད་དང་ཐ་སྙད།
+  url: "/2016-07-28-terminology-of-law-in-tibetan.html"
+
+- name: ཁྲིམས་གཞུང་དང་ཡུལ་ཁྲིམས།
+  url: "/2016-08-05-resources-nation-local-laws.html"
+
+- name: རླུང་འཕྲིན།
+  url: "/2016-12-20-potcast.html"
+
+- name: ཁྲིམས་དོན་བློ་འདྲིའི་འགེངས་ཤོག
+  url: "/2018-04-03-legal-question-form.html"
+
+- name: 中文
+  url: "/chinese.html"
+  

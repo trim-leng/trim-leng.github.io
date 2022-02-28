@@ -1,0 +1,29 @@
+---
+layout: content
+title: ཁྲིམས་ཀྱི་གཞུང་བཤད།
+
+---
+      
+ <div class="hero lazyload" data-bg="{{site.baseurl}}/assets/img/posts/governance.jpg">
+      <div class="hero__wrap">
+        <h1 class="hero__title">ཁྲིམས་ཀྱི་གཞུང་བཤད།</h1>
+        <p class="hero__meta">རྒྱ་ནག་གི་རྒྱུན་བཀོལ་གྱི་ཁྲིམས་དང་བོད་ས་གནས་ཀྱི་ཡུལ་ཁྲིམས་ཕྱོགས་བསྡུས།</p>
+      </div>
+    </div>
+     
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+     {% for post in site.posts %}
+      {% if post.categories contains "ཁྲིམས་ཀྱི་གཞུང་བཤད།" %}
+              {% include card.html %}
+             {% endif %}
+            {% endfor %}
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    {% include pagination.html %} 
+   

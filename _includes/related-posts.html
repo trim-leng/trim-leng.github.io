@@ -1,0 +1,17 @@
+
+
+  {% capture page.categories %}{{ page.categories }}{% endcapture %}
+ 
+   
+      
+        {% for post in site.posts limit:6 %}
+          {% unless post.categories == {{ page.categories }} %}
+           {% if {{post.title}} != page.title %}
+          <!--  <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> -->
+           {% include card.html %}
+           {% else %}
+           {% endif %}
+          
+          {% endunless %}
+        {% endfor %}
+     

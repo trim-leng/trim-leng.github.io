@@ -1,0 +1,27 @@
+---
+layout: content
+title: དཔེ་དོན།
+---
+
+<div class="hero lazyload" data-bg="{{site.baseurl}}/assets/img/posts/trimleng-header-1024x239.png">
+      <div class="hero__wrap">
+        <h1 class="hero__title">དཔེ་དོན།</h1>
+      </div>
+    </div>
+     
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+     {% for post in site.posts %}
+      {% if post.categories contains "དཔེ་དོན།" %}
+              {% include card.html %}
+             {% endif %}
+            {% endfor %}
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    {% include pagination.html %} 
+   

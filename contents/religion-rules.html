@@ -1,0 +1,27 @@
+---
+layout: content
+title: ཆོས་ལུགས་སྐོར་གྱི་ཁྲིམས།
+---
+
+<div class="hero lazyload" data-bg="{{site.baseurl}}/assets/img/posts/monastry-rules.jpg">
+      <div class="hero__wrap">
+        <h1 class="hero__title">ཆོས་ལུགས་སྐོར་གྱི་ཁྲིམས།</h1>
+      </div>
+    </div>
+     
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+     {% for post in site.posts %}
+      {% if post.categories contains "ཆོས་ལུགས་སྐོར་གྱི་ཁྲིམས།" %}
+              {% include card.html %}
+             {% endif %}
+            {% endfor %}
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    {% include pagination.html %} 
+   

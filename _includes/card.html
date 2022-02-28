@@ -1,0 +1,33 @@
+<a class="post-card" href="{{site.baseurl}}{{post.url}}" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+  
+  <div class="post-card__inner">
+
+    <div class="post-card__header">
+      <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
+      {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
+      <span class="post-card__meta">
+        <time>{{ post.date | date: date_format }}</time>
+      </span>
+    </div>
+  {% if post.thumbnail %}
+  <figure class="post-card__thumb">
+    <img
+      src="{{ post.thumbnail }}"
+      alt="{{post.thumbnail}}"
+    />
+    <noscript><img src="{{site.baseurl}}{{post.thumbnail}}" alt="{{ post.title }}"></noscript>
+  </figure>
+  {% else %}
+  {% if post.featuredvideo %}
+  <video controls width="100%">
+    <source src="{{post.featuredvideo}}" type="video/mp4" alt="{{post.featuredvideo}}">
+  </video>
+{% else %}
+  {% endif %}  {% endif %}
+  <figure class="post-card__thumb">
+    {{post.excerpt}}
+  </figure>
+
+  
+  </div>
+</a>

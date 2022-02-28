@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Trimleng
+email: ttrimleng@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  ད་ལྟ་བོད་མི་བྱིངས་ཙམ་མ་ཡིན་པར་རྒྱ་ནག་གི་འགོ་ཁྲིད་གཙོས་བའི་མི་སེར་མང་བོས་ཁྲིམས་ལུགས་དང་ཁྲིམས་སྐྱོང་ལ་དོ་ཁུར་སྔར་བས་ཆེ་བ་ཞིག་བྱེད་ཀྱིན་ཡོད་པ་དེ་ནི་ལྷག་བསམ་དང་གཞན་ཕན་གྱི་ཀུན་སློང་གིས་དེད་པ་ཙམ་མ་ཡིན་པར་ཁྲིམས་ཞེས་བྱ་བ་འདི་ཆེ་ཕྱོགས་ནས་རྗེ་བོའི་དབང་བསྒྱུར་དང་མཁར་དབང་གི་ཐོབ་ཐང་། ཆུང་ཕྱོགས་ནས་སོ་སོའི་དཔལ་འབྱོར་འདུ་འགོད་དང་འགྲོ་འདུག་ཉལ་ཆགས་བཅས་ཀྱི་ཁེ་ཕན་ལ་དངོས་ཤུགས་བརྒྱུད་གསུམ་གྱི་འབྲེལ་བ་གཏིང་ཟབ་ཞིག་ཡོད་པ་དེ་ཤེས་དང་ཤེས་བཞིན་པའི་བདག་སྲུང་གི་ཀུན་སློང་གིས་དྲངས་ཏེ་ཁྲིམས་ལུགས་མི་སྦྱོང་རང་སྦྱོངས་སུ་ཆགས། ཁྲིམས་ལུགས་་ནི་ཁེ་གྱོང་གི་རྩེད་མོ་ཁྲོད་ཀྱི་བེའུ་བུམ་ཞིག་ཡིན་པས་ཤེས་ན་རང་གཞན་ལ་ཕན་སྲིད་པ་དང་རྨོངས་ན་དོན་གཉིས་ཕུང་བར་བྱེད་སྲིད་པ་ལོ་རྒྱུས་ཀྱིས་ར་སྤྲོད་བྱས་ཟིན་པས་འདིར་བསྐྱར་ཏུ་མི་སྤྲོའོ། བོད་ལ་ཆ་མཚོན་ན་སློབ་གསོ་དང་རྒྱུ་མཚན་གང་མང་གིས་དབང་གིས་ད་ལྟ་བར་དུ་ཁྲིམས་ལ་སྒྲིག་གཞི་ལྡན་པའི་སྒོ་ནས་དོ་སྣང་བྱས་ཏེ་ཞིབ་འཇུག་དང་ལག་ལེན་གྱི་འགོ་བརྩམས་ཐུབ་མེད། དེས་ནི་ང་ཚོའི་ལས་དོན་འཐུས་ཤོར་ཞིག་ཡིན་ཙང་ངོས་ལེན་བྱེད་དགོས། ༡༩༨༠གྱ་གྲངས་ནང་གལ་སྲིད་ང་ཚོས་བཅོས་སྒྱུར་སྒོ་འབྱེད་ཀྱི་སྲིད་བྱུས་ནང་ཆོས་དོན་དང་ལྟར་སྣང་གི་ཆོས་རིག་ཁོ་ནར་མགོ་ཐོམ་ནས་མ་བསྡད་པར་སྐབས་དེའི་ཁྲིམས་ལུགས་གསར་གཏོད་ཀྱི་འགྲོས་དང་བསྟུན་ནས་ཆོས་དོན་ལས་གཞན་པའི་སློབ་གསོ་དང་དཔལ་འབྱོར་སོགས་ཀྱི་སྐོར་ལ་ཁྲིམས་ལུགས་ལས་གཞི་གང་འཚམ་ཞིག་སྐབས་དེའི་ཁྲིམས་ཀྱི་དབང་ཁྱབ་འོག་འགོ་བཙུགས་ཡོད་ན། ད་ལྟའི་བོད་ཀྱི་གནས་སྟངས་མང་བོ་འདི་འདྲ་ཞིག་ཡིན་རྒྱུ་མ་རེད་སྙམ། ཡིན་ནའང་ལོ་རྒྱུས་ནི་གང་ཟག་སུ་གང་གིས་བཟློག་མི་ནུས་བའི་འཕྲུལ་འཁོར་བཞིན་འདས་ཟིན་པ་རྒྱང་ནས་རྒྱང་ལ་བསྐྱལ། ལེ་བདའ་ནི་ཐ་མལ་གྱི་ལས་ཤིག་ཡིན་མོད་འདས་ཟིན་པའི་འཐུས་ཤོར་ལས་ཉམས་མྱོང་དང་བསླབ་བྱ་ལེན་རྒྱུ་མ་གཏོགས་སྡིག་པ་མིག་་་བཙུམས་ཀྱི་བརྟུལ་ཞུགས་མུ་ནས་བཟུང་ན་ང་ཚོ་ནམ་ཡང་ལངས་ཐབས་བྲལ། ནུབ་ཕྱོགས་པའི་ཁ་དཔེར་འཕྱིས་ན་མི་སྐྱོན་མེད་ན་སྐྱོན་ཞེས་བ་བཞིན་ང་ཚོ་ད་ལྟ་ཁྲིམས་ལུགས་ཀྱི་ལམ་ལ་ཆས་རན། ཁྲིམས་གླེང་ནི་དེང་གི་བརྡ་འཕྲིན་གྱི་དགེ་མཚན་ལ་བརྟེན་ནས་ཁྲིམས་ལ་དོ་སྣང་ཡོད་པའི་བོད་ཀྱི་ཤེས་ཡོན་པ་དག་ཚོགས་ཏེ་ཕྱི་ནང་གི་ཁྲིམས་རིག་པ་དང་ལྷག་ཏུ་རྒྱ་ནག་གི་ཁྲིམས་ལ་བརྟེན་ནས་བོད་མིར་ཕན་ཐོགས་ཇི་ལྟར་སྒྲུབ་པའི་ཐབས་ལམ་གྱི་སྐོར་ལ་བགྲོ་གླེང་བྱེད་པར་བསྐྲུན་པའི་དྲ་ས་ཞིག་ཡིན། 
+  རིག་པའི་བཙན་ས་འདི་ནས་ང་ཚོས་མི་རིགས་འདིའི་འདས་ཟིན་པའི་གཟི་བརྗིད་བསྐྱར་གསོ་དང་མ་འོངས་བར་བདེ་སྐྱིད་ཀྱི་ལམ་ཀ་ཞིག་བསྐྲུན་ཐུབ་པར་འབད་བརྩོན་བྱེད་རྒྱུ་ཡིན།
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: trimleng
+github_username:  trimleng
+
+paginate: 16
+paginate_path: /blog/page:num/
+
+# permalink: /:categories/:year/:month/:day/:title/
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-category
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+plugins: [jekyll-paginate,jekyll-paginate-category,jekyll-paginate-categories] 
+
+
+# -------------- category archive
+
+

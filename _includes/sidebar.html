@@ -1,0 +1,44 @@
+
+
+
+<div class="aside-title">
+	<h2>དཀར་ཆག</h2>
+</div>
+<ul>
+	<li><a href="{{site.baseurl}}/contents/opinion.html">བསམ་ཚུལ།</a></li>
+	<li><a href="{{site.baseurl}}/contents/public-rules.html">དམངས་ཁྲིམས་དང་དངོས་ཟོག་བདག་དབང་གི་ཁྲིམས། </a></li>
+	<li><a href="{{site.baseurl}}/contents/religion-rules.html">ཆོས་ལུགས་སྐོར་གྱི་ཁྲིམས།</a></li>
+	<li><a href="{{site.baseurl}}/contents/environment-policy.html">འཁོར་ཡུག་སྲུང་སྐྱོབ་ཀྱི་ཁྲིམས།</a></li>
+	<li><a href="{{site.baseurl}}/contents/elementary-policy.html">སློབ་གསོ་དང་འབྲེལ་བའི་ཁྲིམས་དང་སྲིད་བྱུས།</a></li>
+	<li><a href="{{site.baseurl}}/contents/new-incident.html">གནས་ཚུལ་གསར་བྱུང་དཔྱད་བརྗོད།</a></li>
+	<li><a href="{{site.baseurl}}/contents/policies-of-president.html">སྲིད་འཛིན་ཁྲིམས་ལུགས་སྐོར།</a></li>
+{% for menu in site.data.menu %}
+      {% if menu.subcategories != null %}
+              {% for subcategory in menu.subcategories %}
+            <li>
+                <a  href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subname }}</a> <!--  {{ menu.url }}/{{ subcategory.subhref }} -->
+            </li>
+              {% endfor %}
+      {% elsif menu.name == page.name %}
+         <li>
+           <a  href="{{ menu.url }}">{{ menu.name }}</a>
+         </li>
+      {% else %} 
+        <li>
+          <a  href="{{site.baseurl}}{{ menu.url }}">{{ menu.name }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+</ul>
+<!-- Recent Posts -->
+<div class="aside-title">
+	<h2>ཉེ་ཆར་གྱི་རྩོམ</h2>
+</div>
+<ul>
+{% for post in site.posts offset:1 limit:8 %}
+	<li><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+

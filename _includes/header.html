@@ -1,0 +1,56 @@
+<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <div class="container">
+    <div class="header__inner">
+      <a class="header__logo" href="{{site.baseurl}}/index.html">
+        <div class="">
+          <b>{{site.title}}</b>
+        </div>
+      </a>
+      <nav class="header__links">
+       
+        <div class="container header__links-wrapper">
+        <!--
+         {% for item in site.data.menu %}
+ 			<a class="header__link" href="{{site.baseurl}}/{{ item.url }}" alt="{{ item.title }}"><span itemprop="name">{{ item.name }}</span></a>
+        {% endfor %}
+        -->
+         <ul class="container main-menu" style="">
+         {% for menu in site.data.menu %}
+      {% if menu.subcategories != null %}
+       
+        <li>
+          <a class="header__link" href="{{ site.baseurl }}{{ menu.url }}"><span itemprop="name">{{ menu.name }}</span> ▼</a>
+          <ul>
+              {% for subcategory in menu.subcategories %}
+            <li>
+                <a  class="header__link" href="{{ site.baseurl }}{{ subcategory.subhref }}"><span>{{ subcategory.subname }}</span></a> <!--  {{ menu.url }}/{{ subcategory.subhref }} -->
+            </li>
+              {% endfor %}
+          </ul>
+        </li>
+      {% elsif menu.name == page.name %}
+         <li class="active">
+           <a class="header__link" href="{{ menu.url }}"><span itemprop="name">{{ menu.name }}</span></a>
+         </li>
+      {% else %} 
+        <li>
+          <a class="header__link" href="{{site.baseurl}}{{ menu.url }}"><span itemprop="name">{{ menu.name }}</span></a>
+        </li>
+      
+      {% endif %}
+    {% endfor %}
+          </ul>
+         <!--
+          <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">{{ item.name }}</span></a>
+          <a class="header__link" href="{{ '/about' | relative_url }}" itemprop="url"><span itemprop="name">About</span></a>
+              -->
+     </div>
+      </nav>
+      <div class="header__toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</header>
