@@ -1,13 +1,9 @@
 ---
-layout: post
 title: སྒོ་ཤེས་རབ་རྒྱ་མཚོ་ཡི་ཆེད་དུ་བྲིས་པའི་དམངས་ཁྲོད་དག་སེལ་ཡི་གེ
-date: 2021-12-24 10:41
-author: trimleng
-comments: true
-categories: [གནས་ཚུལ་གསར་བྱུང་དཔྱད་བརྗོད།, ཉེས་དོན་ཞུ་གཏུག་གི་སྐོར།]
 ---
+
 <audio controls="controls">
-<source src="http://trimleng.org/wp-content/uploads/2021/12/gosherejacuodeershen-bianhuci.mp3" type="audio/mpeg" />
+<source src="https://trimleng.org/wp-content/uploads/2021/12/gosherejacuodeershen-bianhuci.mp3" type="audio/mpeg" />
 Your browser does not support the audio element.
 </audio>
 
@@ -33,5 +29,4 @@ Your browser does not support the audio element.
 
 སྒོ་ཤེས་རབ་རྒྱ་མཚོ་ལ་རྒྱབ་སྐྱོར་བྱེད་འདོད་མཁན་རྣམ་པས་ཉིན་མ་འདི་དག་གི་རིང་ལ་བོད་རང་སྐྱོང་ལྗོངས་མཐོ་རིམ་མི་དམངས་ཁྲིམས་ཁང་ལ་ཡི་གེ་འབྲི་བའམ། ཁ་པར་གཏོང་བ། དངོས་སུ་བཅར་བ་སོགས་ཀྱི་ཐབས་ཚུལ་ལ་བསྟེན་ཏེ་ཁོང་དཀར་འདོན་བྱེད་དགོས་པའི་རེ་འདུན་དེ་བརྗོད་དེ་ཁྲིམས་དཔོན་གྱིས་མཐའ་མའི་ཐག་གཅོད་པ་ཤུགས་རྐྱེན་བཟོ་དགོས། དེ་ལྟར་བྱས་ན་སྒོ་ཤེར་ལ་དྲང་བདེན་གྱི་ཐག་གཅོད་ཅིག་བྱེད་སྲིད། གཤམ་ཏུ་བཞག་ཡོད་པ་ནི་བོད་ལྗོངས་མཐོ་རིམ་མི་དམངས་ཁྲིམས་ཁང་གི་འབྲེལ་གཏུག་བྱེད་སའི་ཆ་འཕྲིན་ཡིན།
 
-<span style="font-weight: 400;">བོད་ལྗོངས་མཐོ་རིམ་མི་དམངས་ཁྲིམས་ཁང་གི་ཁ་པར། ༨༩༡ ༦༨༣ ༦༤༥༡</span><span style="font-weight: 400;">
-</span><span style="font-weight: 400;">བོད་ལྗོངས་མཐོ་རིམ་མི་དམངས་ཁྲིམས་ཁང་གི་དྲ་གནས། </span><a href="http://xzgy.chinacourt.gov.cn/index.shtml"><span style="font-weight: 400;">http://xzgy.chinacourt.gov.cn/index.shtml</span></a>
+<span style="font-weight: 400;">བོད་ལྗོངས་མཐོ་རིམ་མི་དམངས་ཁྲིམས་ཁང་གི་ཁ་པར། ༨༩༡ ༦༨༣ ༦༤༥༡</span><span style="font-weight: 400;"> </span><span style="font-weight: 400;">བོད་ལྗོངས་མཐོ་རིམ་མི་དམངས་ཁྲིམས་ཁང་གི་དྲ་གནས། </span><a href="http://xzgy.chinacourt.gov.cn/index.shtml"><span style="font-weight: 400;">http://xzgy.chinacourt.gov.cn/index.shtml</span></a>
