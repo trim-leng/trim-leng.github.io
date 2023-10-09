@@ -4,7 +4,7 @@ title: 怎样学好法律？
 date: 2016-09-06 14:09
 author: trimleng
 comments: true
-categories: [中文]
+categories: 中文
 ---
 <div align="center">
 <p style="text-align: left;">贺卫方（北京大学教授）</p>
