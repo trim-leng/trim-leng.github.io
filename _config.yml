@@ -46,7 +46,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-plugins: [jekyll-paginate,jekyll-paginate-category,jekyll-paginate-categories] 
+#plugins: [jekyll-paginate,jekyll-paginate-category,jekyll-paginate-categories] 
 
 
 # -------------- category archive
