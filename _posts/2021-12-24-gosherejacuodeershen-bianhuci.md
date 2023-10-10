@@ -1,8 +1,7 @@
 ---
 title: སྒོ་ཤེས་རབ་རྒྱ་མཚོ་ཡི་ཆེད་དུ་བྲིས་པའི་དམངས་ཁྲོད་དག་སེལ་ཡི་གེ
-date: 2021-12-24 00:29
-author: trimleng
-comments: true
+date: 2021-12-24T00:29:00.000Z
+layout: post
 categories: སྐད་ཡིག
 ---
 
