@@ -15,7 +15,7 @@ export default defineConfig({
   media: {
     tina: {
       mediaRoot: "/assets",
-      publicFolder: "./",
+      publicFolder: "./assets",
     },
   },
   schema: {
@@ -24,6 +24,16 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "_posts/",
+        ui: {
+        filename: {
+          slugify: values => {
+            const postDate = values.date ? new Date(values.date) : new Date();
+            return `${postDate.toISOString().split("T")[0]}-${(values.title || "")
+              .toLowerCase()
+              .replace(/ /g, "-")}`.replace(/[^\w\.\/-\s]/gi, "");
+          }
+        }
+      },
         fields: [
           {
             type: "string",
@@ -33,18 +43,25 @@ export default defineConfig({
             required: true,
           },
           {
+            label: "Date",
+            name: "date",
+            type: "datetime",
+          },
+
+          {
             type: "string",
             name: "layout",
             label: "Layout",
             required: true,
+            options:['post']
           },
           {
             type: "string",
             name: "categories",
             label: "Categories",
             required: true,
-          },
-          
+            options: ['中文','ཉེས་དོན་ཞུ་གཏུག་གི་སྐོར།','གནས་ཚུལ་གསར་བྱུང་དཔྱད་','ཁྲིམས་ཀྱི་གཞུང་བཤད།','ཁྲིམས་གསར་མཚམས་སྦྱོར།','ཁྲིམས་བཟོའི་སྐོར།','ཁྲིམས་རིག་གི་ལོ་རྒྱུས།','གནས་ཚུལ་གསར་བྱུང་དཔྱད་བརྗོད།','ངལ་རྩོལ་ཁྲིམས།','ཆོས་ལུགས་སྐོར་གྱི་ཁྲིམ','ཉེས་དོན་ཞུ་གཏུག་གི་སྐོ','དཔེ་དོན།','དམངས་ཁྲིམས་དང་དངོས་ཟོག་བདག་དབང་གི་ཁྲིམས།','བསམ་ཚུལ།','བུད་མེད་ཀྱི་ཐོབ་ཐང་།','འཁོར་ཡུག་སྲུང་སྐྱོབ་ཀྱི་ཁྲིམས།','རླུང་འཕྲིན།','ལས་ཀའི་གན་རྒྱ།','སྐད་ཡིག','སྲིད་འཛིན་ཁྲིམས་ལུགས་སྐོར།','current issue','གནས་ཚུལ་གསར་བྱུང་དཔྱད་བརྗོད།']
+          },  
           {
             type: "rich-text",
             name: "body",
