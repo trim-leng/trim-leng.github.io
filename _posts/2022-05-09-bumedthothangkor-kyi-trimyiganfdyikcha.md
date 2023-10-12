@@ -7,7 +7,7 @@ layout: post
 categories: བུད་མེད་ཀྱི་ཐོབ་ཐང་།
 ---
 
-![http://trimleng.org/wp-content/uploads/2021/12/gosherejacuodeershen-bianhuci-e1640360517348.jpg](http://trimleng.org/wp-content/uploads/2021/12/gosherejacuodeershen-bianhuci-e1640360517348.jpg)
+![http://trimleng.org/wp-content/uploads/2021/12/gosherejacuodeershen-bianhuci-e1640360517348.jpg](/assetshttp://trimleng.org/wp-content/uploads/2021/12/gosherejacuodeershen-bianhuci-e1640360517348.jpg)
 (1992ལོའི་ཟླ་4ཚེས་3ཉིན་ཉིན་རྒྱལ་ཡོངས་མི་དམངས་འཐུས་མིའི་ཚོགས་ཆེན་སྐབས་བདུན་པའི་གྲོས་ཚོགས་ཐེངས་ལྔ་པའི་ཐོགགྲོས་འཆམ་བྱུང་།2005ལོའི་ཟླ་བརྒྱད་པའི་ཚེས་28ཉིན་རྒྱལ་ཡོངས་མི་དམངས་འཐུས་མིའི་ཚོགས་ཆེན་གྱི་རྒྱུན་ལས་ཨུ་ཡོན་ལྷན་ཁང་སྐབས་བཅུ་པའི་གྲོས་ཚོགས་ཐེངས་བཅུ་བདུན་པའི་ཐོག་གི་′བུད་མེད་ཀྱི་ཁེ་དབང་འགན་སྲུང་བྱེད་ཕྱོགས་སྐོར་གྱི་ཀྲུང་ཧྭ་མི་དམངས་སྤྱི་མྭན་རྒྱལ་ཁབ་ཀྱི་བཅའ་ཁྲིམས་བཟོ་བཅོས་རྒྱག་རྒྱུའི་སྐོར་གྱི་ཆོད་དོན་ལ་གཞིགས་ཏེ་དག་བཅོས་བྱས།)
 
 ལེའུ་དང་པོ།སྤྱིའི་དོན་ཚན། 　
