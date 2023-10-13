@@ -26,7 +26,7 @@ github_username:  trimleng
 paginate: 16
 paginate_path: /blog/page:num/
 
-# permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 # Build settings
 markdown: kramdown
 theme: minima
