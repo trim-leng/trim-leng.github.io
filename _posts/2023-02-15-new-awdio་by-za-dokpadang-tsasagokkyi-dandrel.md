@@ -7,4 +7,4 @@ categories: གནས་ཚུལ་གསར་བྱུང་དཔྱད་�
 
 ![](/assetshttps://trimleng.org/wp-content/uploads/2023/02/dokpatsasa.jpg)
 
-<audio controls src="https://trimleng.org/wp-content/uploads/2023/02/getvoice1.mp3"></audio> <audio controls src="https://trimleng.org/wp-content/uploads/2023/02/getvoice2.mp3">
+<audio controls src="https://media-trimleng.s3.amazonaws.com/getvoice1.mp3"></audio> <audio controls src="https://media-trimleng.s3.amazonaws.com/getvoice2.mp3">
