@@ -5,6 +5,6 @@ layout: post
 categories: གནས་ཚུལ་གསར་བྱུང་དཔྱད་བརྗོད།
 ---
 
-![](https://trimleng.org/wp-content/uploads/2023/02/dokpatsasa.jpg)
+![](/assetshttps://trimleng.org/wp-content/uploads/2023/02/dokpatsasa.jpg)
 
-<audio controls src="http://trimleng.org/wp-content/uploads/2023/02/getvoice1.mp3"></audio> <audio controls src="https://trimleng.org/wp-content/uploads/2023/02/getvoice2.mp3">
+<audio controls src="https://trimleng.org/wp-content/uploads/2023/02/getvoice1.mp3"></audio> <audio controls src="https://trimleng.org/wp-content/uploads/2023/02/getvoice2.mp3">
