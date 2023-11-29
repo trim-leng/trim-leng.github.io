@@ -5,4 +5,4 @@ layout: post
 categories: འཁོར་ཡུག་སྲུང་སྐྱོབ་ཀྱི་ཁྲིམས།
 ---
 
-<audio controls src="https://media-trimleng.s3.amazonaws.com/xiling-school.mp3"></audio>
+<audio controls src="https://media-trimleng.s3.amazonaws.com/assets/audio/xiling-school.mp3"></audio>
