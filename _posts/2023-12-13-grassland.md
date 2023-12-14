@@ -7,3 +7,6 @@ categories: འཁོར་ཡུག་སྲུང་སྐྱོབ་ཀྱ�
 ---
 
 ![](/assets/img/Yak_grazing_on_the_Tibetan_Plateau-scaled.jpg)
+
+<audio controls src="https://media-trimleng.s3.amazonaws.com/assets/audio/grassland.mp3">
+</audio>
