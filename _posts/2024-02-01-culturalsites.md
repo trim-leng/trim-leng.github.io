@@ -8,6 +8,5 @@ categories: འཁོར་ཡུག་སྲུང་སྐྱོབ་ཀྱ�
 ![](/assets/img/kailash-mount.jpg)
 
 \<audio controls>
-  \<source src="[https://media-trimleng.s3.amazonaws.com/assets/audio/culturalsites.mp3](https://media-trimleng.s3.amazonaws.com/assets/audio/culturalsites.mp3)" type="audio/mpeg">
-  Your browser does not support the audio tag.
-\</audio>
+\<source src="https\://media-trimleng.s3.amazonaws.com/assets/audio/culturalsites.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag. </audio>
