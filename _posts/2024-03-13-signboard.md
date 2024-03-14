@@ -8,4 +8,4 @@ categories: སྐད་ཡིག
 ![](/assets/img/image-945x709.png)
 
 <audio controls> <source src="https://media-trimleng.s3.amazonaws.com/assets/audio/signboard.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+Your browser does not support the audio element. </audio>
