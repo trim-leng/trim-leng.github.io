@@ -22,3 +22,5 @@ categories: ཁྲིམས་རིག་གི་ལོ་རྒྱུས།
 申请人：任何人或者寺院
 
 申请日期：2024年4月28日
+
+<embed src="https://assets.tina.io/6554a7ea-c49d-4592-94b3-bacb45f16a68/openletter-cn.pdf" type="application/pdf" width="100%" height=800>
