@@ -24,4 +24,4 @@ categories: ཁྲིམས་བཟོའི་སྐོར།
 
 ཡར་ཞུའི་དུས་ཚོད། ༢༠༢༤་ལོའི་སྤྱི་ཟླ་༤་པའི་ཚེས་༢༨་ཉིན། 
 
-
+https\://assets.tina.io/6554a7ea-c49d-4592-94b3-bacb45f16a68/openletter.pdf <embed src="https://assets.tina.io/6554a7ea-c49d-4592-94b3-bacb45f16a68/openletter.pdf" type="application/pdf" width="100%" height=800>
