@@ -6,37 +6,37 @@
 - name: དྲ་ཚིགས་འདིའི་སྐོར།
   subcategories:
     - subname: "བདག་གི་སྐོར།"
-      subhref: "/2016-07-28-about.html"
+      subhref: "/2016-07-28-about"
     - subname: "དྲ་ཚིགས་འདི་ཡི་དགོས་པ་རྒྱུ་མཚན།"
-      subhref: "/2016-08-05-aims-and-objectives.html"
+      subhref: "/2016-08-05-aims-and-objectives"
 
 - name: དཀར་ཆག
   subcategories:
     - subname: "ཉེས་དོན་ཞུ་གཏུག་གི་སྐོར།"
-      subhref: "/contents/police.html"
+      subhref: "/contents/police"
     - subname: "སྐད་ཡིག"
-      subhref: "/contents/language.html"
+      subhref: "/contents/language"
     - subname: "དཔེ་དོན།"
-      subhref: "/contents/examplary.html"
+      subhref: "/contents/examplary"
     - subname: "ཁྲིམས་རིག་གི་ལོ་རྒྱུས།"
-      subhref: "/contents/politics.html"
+      subhref: "/contents/politics"
     - subname: "ཁྲིམས་རིག་གི་ལོ་རྒྱུས།"
-      subhref: "/contents/politic-stories.html"
+      subhref: "/contents/politic-stories"
     - subname: "ཁྲིམས་ཀྱི་གཞུང་བཤད།"
-      subhref: "/contents/pol.html"
+      subhref: "/contents/pol"
    
 - name: བརྡ་ཆད་དང་ཐ་སྙད།
-  url: "/2016-07-28-terminology-of-law-in-tibetan.html"
+  url: "/2016-07-28-terminology-of-law-in-tibetan"
 
 - name: ཁྲིམས་གཞུང་དང་ཡུལ་ཁྲིམས།
-  url: "/2016-08-05-resources-nation-local-laws.html"
+  url: "/2016-08-05-resources-nation-local-laws"
 
 - name: རླུང་འཕྲིན།
-  url: "/2016-12-20-potcast.html"
+  url: "/2016-12-20-potcast"
 
 - name: ཁྲིམས་དོན་བློ་འདྲིའི་འགེངས་ཤོག
-  url: "/2018-04-03-legal-question-form.html"
+  url: "/2018-04-03-legal-question-form"
 
 - name: 中文
-  url: "/chinese.html"
+  url: "/chinese"
   
