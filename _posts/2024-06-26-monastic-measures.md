@@ -7,4 +7,4 @@ layout: post
 categories: ཆོས་ལུགས་སྐོར་གྱི་ཁྲིམ
 ---
 
-<audio controls> <source src="https://media-trimleng.s3.amazonaws.com/assets/audio/monastic-measures.mp3.mp3" type="audio/mpeg">
+<audio controls> <source src="https://media-trimleng.s3.amazonaws.com/assets/audio/monastic-measures.mp3" type="audio/mpeg">
