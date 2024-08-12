@@ -3,7 +3,7 @@
   <div class="post-card__inner">
 
     <div class="post-card__header">
-      <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
+      <h2>{{ post.title | strip_html }}</h2>
       {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
         <time>{{ post.date | date: date_format }}</time>
@@ -24,9 +24,9 @@
   </video>
 {% else %}
   {% endif %}  {% endif %}
-  <figure class="post-card__thumb">
-    {{post.excerpt}}
-  </figure>
+ <p>
+   {{post.excerpt}}
+ </p>
 
   
   </div>
