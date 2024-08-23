@@ -5,3 +5,4 @@ layout: post
 categories: ཁྲིམས་ཀྱི་གཞུང་བཤད།
 ---
 
+<audio controls> <source src="https://media-trimleng.s3.amazonaws.com/assets/audio/village-leader.mp3" type="audio/mpeg">
