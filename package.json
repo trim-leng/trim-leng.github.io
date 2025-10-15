@@ -1,17 +1,83 @@
 {
-  "name": "trim-leng.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
-    "build": "tinacms build && bundle exec jekyll build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@tinacms/cli": "^1.5.30",
-    "tinacms": "^1.5.21"
-  }
+	"name": "trim-leng.github.io",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+		"build": "tinacms build && bundle exec jekyll build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@tinacms/cli": "^1.11.0",
+		"slate": "^0.118.1",
+		"slate-dom": "^0.118.1",
+		"slate-react": "^0.117.4",
+		"tinacms": "^2.9.0",
+		"zustand": "^3.7.2"
+	},
+	"resolutions": {
+		"zustand": "3.7.2"
+	},
+	"Resources": {
+		"Bucket": {
+			"Type": "AWS::S3::Bucket",
+			"Properties": {
+				"BucketName": {
+					"Fn::Sub": "${AWS::StackName}-bucket-${AWS::AccountId}"
+				},
+				"BucketEncryption": {
+					"ServerSideEncryptionConfiguration": [
+						{
+							"ServerSideEncryptionByDefault": {
+								"SSEAlgorithm": "aws:kms",
+								"KMSMasterKeyID": "alias/aws/s3"
+							}
+						}
+					]
+				},
+				"PublicAccessBlockConfiguration": {
+					"IgnorePublicAcls": true,
+					"RestrictPublicBuckets": true
+				}
+			}
+		},
+		"BucketBucketPolicy": {
+			"Type": "AWS::S3::BucketPolicy",
+			"Properties": {
+				"Bucket": {
+					"Ref": "Bucket"
+				},
+				"PolicyDocument": {
+					"Id": "RequireEncryptionInTransit",
+					"Version": "2012-10-17",
+					"Statement": [
+						{
+							"Principal": "*",
+							"Action": "*",
+							"Effect": "Deny",
+							"Resource": [
+								{
+									"Fn::GetAtt": [
+										"Bucket",
+										"Arn"
+									]
+								},
+								{
+									"Fn::Sub": "${Bucket.Arn}/*"
+								}
+							],
+							"Condition": {
+								"Bool": {
+									"aws:SecureTransport": "false"
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	}
 }
