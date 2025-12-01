@@ -5,7 +5,7 @@ layout: post
 categories: uncategorised
 ---
 
-\<audio controls src="[https://media-trimleng.s3.us-east-1.amazonaws.com/assets/audio/self-sufficiency.mp3](https://media-trimleng.s3.us-east-1.amazonaws.com/assets/audio/self-sufficiency.mp3)">\</audio>
+<audio controls src="https://media-trimleng.s3.us-east-1.amazonaws.com/assets/audio/self-sufficiency.mp3"></audio>
 
 ![](/assets/img/arcteryxfirework.webp)
 
