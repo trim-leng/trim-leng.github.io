@@ -4,7 +4,7 @@
 
     <div class="post-card__header">
       <h2>{{ post.title | strip_html }}</h2>
-      {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
+      {% assign date_format = "%d/%m/%y" %}
       <span class="post-card__meta">
         <time>{{ post.date | date: date_format }}</time>
       </span>
