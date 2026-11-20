@@ -18,8 +18,8 @@
       subhref: "/contents/language"
     - subname: "དཔེ་དོན།"
       subhref: "/contents/examplary"
-    - subname: "ཁྲིམས་རིག་གི་ལོ་རྒྱུས།"
-      subhref: "/contents/politics"
+    - subname: "ཁྲིམས་བཟོའི་སྐོར།"
+      subhref: "/contents/politics/"
     - subname: "ཁྲིམས་རིག་གི་ལོ་རྒྱུས།"
       subhref: "/contents/politic-stories"
     - subname: "ཁྲིམས་ཀྱི་གཞུང་བཤད།"
@@ -34,8 +34,7 @@
 - name: རླུང་འཕྲིན།
   url: "/2016-12-20-potcast"
 
-- name: ཁྲིམས་དོན་བློ་འདྲིའི་འགེངས་ཤོག
-  url: "/2018-04-03-legal-question-form"
+
 
 - name: 中文
   url: "/chinese"

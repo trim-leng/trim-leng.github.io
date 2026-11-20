@@ -1,29 +1,75 @@
-<nav class="pagination">
-
-
-{% if paginator.total_pages > 1 %}
-<div class="vlog-pagination"> 
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html" class="pagination__item">དེ་སྔའི།</a> 
-  {% endif %}
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="page-numbers  current">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="{{site.baseurl}}/index.html" class="page-numbers  current">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}index.html" class="pagination__item">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html" class="pagination__item">འོག་མ།</a>
-  {% endif %}
-</div>
+{% assign category_name = page.paginate_category %}
+{% if page.paginator %}
+  {% assign category_name = page.title %}
+  {% assign current_page = page.paginator.page %}
+  {% assign total_pages = page.paginator.total_pages %}
+{% elsif category_name %}
+  {% assign category_posts = site.categories[category_name] %}
+  {% assign current_page = 1 %}
+  {% assign total_pages = category_posts.size | plus: site.paginate | minus: 1 | divided_by: site.paginate %}
 {% endif %}
 
+{% if category_name and total_pages > 1 %}
+  {% assign category_landing_page = site.pages | where: "paginate_category", category_name | where: "pagination_landing", true | first %}
+  {% unless category_landing_page %}
+    {% assign category_landing_page = site.pages | where: "paginate_category", category_name | first %}
+  {% endunless %}
+  {% assign category_directory = site.category_dir | default: "categories" %}
+  {% if category_landing_page %}
+    {% assign first_page_url = category_landing_page.url %}
+  {% else %}
+    {% capture first_page_url %}/{{ category_directory }}/{{ category_name }}/index.html{% endcapture %}
+  {% endif %}
 
+  <nav class="pagination" aria-label="Category pages">
+    <div class="vlog-pagination">
+      {% if current_page > 1 %}
+        {% assign previous_page = current_page | minus: 1 %}
+        {% if previous_page == 1 %}
+          <a href="{{ first_page_url | prepend: site.baseurl }}" class="pagination__item">དེ་སྔའི།</a>
+        {% else %}
+          {% assign previous_path = site.paginate_path | replace: ":num", previous_page | remove_first: "/" %}
+          <a href="{{ site.baseurl }}/{{ category_directory }}/{{ category_name }}/{{ previous_path }}index.html" class="pagination__item">དེ་སྔའི།</a>
+        {% endif %}
+      {% endif %}
 
+      {% for page_number in (1..total_pages) %}
+        {% if page_number == current_page %}
+          <span class="pagination__item current" aria-current="page">{{ page_number }}</span>
+        {% elsif page_number == 1 %}
+          <a href="{{ first_page_url | prepend: site.baseurl }}" class="pagination__item">{{ page_number }}</a>
+        {% else %}
+          {% assign page_path = site.paginate_path | replace: ":num", page_number | remove_first: "/" %}
+          <a href="{{ site.baseurl }}/{{ category_directory }}/{{ category_name }}/{{ page_path }}index.html" class="pagination__item">{{ page_number }}</a>
+        {% endif %}
+      {% endfor %}
 
-</nav>
+      {% if current_page < total_pages %}
+        {% assign next_page = current_page | plus: 1 %}
+        {% assign next_path = site.paginate_path | replace: ":num", next_page | remove_first: "/" %}
+        <a href="{{ site.baseurl }}/{{ category_directory }}/{{ category_name }}/{{ next_path }}index.html" class="pagination__item">འོག་མ།</a>
+      {% endif %}
+    </div>
+  </nav>
+{% elsif paginator.total_pages > 1 %}
+  <nav class="pagination" aria-label="Pages">
+    <div class="vlog-pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html" class="pagination__item">དེ་སྔའི།</a>
+      {% endif %}
+      {% for page_number in (1..paginator.total_pages) %}
+        {% if page_number == paginator.page %}
+          <span class="pagination__item current" aria-current="page">{{ page_number }}</span>
+        {% elsif page_number == 1 %}
+          <a href="{{ site.baseurl }}/index.html" class="pagination__item">{{ page_number }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page_number }}index.html" class="pagination__item">{{ page_number }}</a>
+        {% endif %}
+      {% endfor %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html" class="pagination__item">འོག་མ།</a>
+      {% endif %}
+    </div>
+  </nav>
+{% endif %}
 

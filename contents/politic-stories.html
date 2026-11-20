@@ -1,6 +1,7 @@
 ---
 layout: content
 title: ཁྲིམས་རིག་གི་ལོ་རྒྱུས།
+paginate_category: ཁྲིམས་རིག་གི་ལོ་རྒྱུས།
 ---
 <div class="hero lazyload" data-bg="{{site.baseurl}}/assets/img/posts/tankman.jpg">
       <div class="hero__wrap">
@@ -12,10 +13,9 @@ title: ཁྲིམས་རིག་གི་ལོ་རྒྱུས།
       <section class="blog">
         <div class="container">
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-     {% for post in site.posts %}
-      {% if post.categories contains "ཁྲིམས་རིག་གི་ལོ་རྒྱུས།" %}
+     {% assign category_posts = site.categories[page.paginate_category] %}
+     {% for post in category_posts limit:site.paginate %}
               {% include card.html %}
-             {% endif %}
             {% endfor %}  
           </div>
         </div>

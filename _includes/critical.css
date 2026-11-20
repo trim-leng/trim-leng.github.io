@@ -56,7 +56,7 @@ body{background-color:#fff;
 	@media (min-width:75em){
 		.container{max-width:1170px;margin:0 auto}
 		}
-		.header{background-color:#fff;
+		header.header{background-color:#fff;
 			color:#343851;
 			position:absolute;
 			z-index:4;width:100%;
@@ -65,7 +65,7 @@ body{background-color:#fff;
 			-webkit-transform:translateY(0);
 			transform:translateY(0)
 			}
-		.header a{
+		header.header a{
 			display:-webkit-box;
 			display:-ms-flexbox;
 			display:flex;
@@ -192,3 +192,15 @@ body{background-color:#fff;
 	@media (min-width:75em){
 		.post-list{column-count:3}
 	}
+
+:root{--paper:#f5f2eb;--surface:#fffdf9;--ink:#29312d;--muted:#69746e;--line:#e6e1d8;--accent:#98513e;--accent-dark:#713c30}
+body{background:var(--paper);color:var(--ink)}
+header.header,header.header.fix-nav{background:rgba(255,253,249,.97);border-bottom:1px solid var(--line);box-shadow:0 2px 14px rgba(41,49,45,.06)}
+.header__logo{height:auto;padding:.7rem 0;overflow:visible;color:var(--ink)}
+.header__logo::before{width:.65rem;height:.65rem;margin-right:.65rem;border-radius:50%;background:var(--accent);content:""}
+.header__brand{font-size:1.15rem;font-weight:bold;letter-spacing:.04em}
+.header__link{color:var(--ink)}
+.hero__meta{color:#f5eee4;font-size:clamp(1rem,2vw,1.35rem)}
+.hero__title{color:#fff!important}
+.blog{background:var(--paper)}
+.footer{background:#29312d;color:#f5f2eb}

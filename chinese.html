@@ -1,28 +1,14 @@
 ---
 layout: default
 title: 中文
+hero_title: 中文
+hero_meta: CATEGORY
+hero_image: /assets/img/posts/trimleng-header-1024x239.png
+paginate_category: 中文
 ---
 
-<div class="hero lazyload" data-bg="{{site.baseurl}}/assets/img/posts/trimleng-header-1024x239.png">
-      <div class="hero__wrap">
-        <h1 class="hero__title">中文</h1>
-        <p class="hero__meta">CATEGORY</p>
-      </div>
-    </div>
-     
-    <main class="site__content">
-      <section class="blog">
-        <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-     {% for post in site.posts %}
-      {% if post.categories contains "中文" %}
-              {% include card.html %}
-             {% endif %}
-            {% endfor %}
-            
-          </div>
-        </div>
-      </section>
-    </main>
-    {% include pagination.html %} 
+{% assign category_posts = site.categories[page.paginate_category] %}
+{% for post in category_posts limit:site.paginate %}
+  {% include card.html %}
+{% endfor %}
    
